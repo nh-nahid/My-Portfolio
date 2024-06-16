@@ -1,0 +1,151 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Inconsolata';
+}
+.topbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    height: 90px;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.right{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+.name{
+    font-size: 30px;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 200px;
+    background-color: #E5E5E5;
+    
+}
+h2{
+    font-family: 'dosis', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    
+}
+img{
+   width: 300px;
+   margin-top: 40px;
+}
+.tittle{
+    margin-top: 10px;
+    color: rgb(153, 134, 134);
+}
+
+button{
+    padding: 15px 30px;
+    margin-top: 15px;
+    border-radius: 30px;
+    background-color: rgb(5, 151, 71);
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+    
+}
+a{
+    text-decoration: none;
+}
+
+.middle-content{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 50px;
+}
+.middle-text{
+    width: 500px;
+    color: rgb(153, 134, 134);
+}
+
+h1{
+    width: 350px;
+    font-size: 50px;
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h4{
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-family: 'dosis';
+}
+.expertise-details{
+    color: rgb(153, 134, 134);;
+}
+
+.project1{
+    display: flex;
+    justify-content: space-between;
+}
+.project2{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.contact{
+  
+    font-family: 'dosis';
+}
+.address{
+    margin-bottom: 8px;
+    font-family: 'dosis';
+}
+.call{
+    margin-bottom: 8px;
+    font-family: 'dosis';
+}
+.email{
+    margin-bottom: 8px;
+    font-family: 'dosis';
+}
+h4{
+    font-size: 20px;
+    font-family: 'abel';
+    font-weight: 600;
+}
+   
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    padding: 40px;
+    margin-bottom: 100px;
+}
+
+.social-icon{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.left-footer{
+    font-family: 'dosis';
+}
