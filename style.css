@@ -79,8 +79,8 @@ a{
 .middle-content{
     display: flex;
     justify-content: space-between;
-    margin: 100px;
-    width: 100vw;
+    margin: 100px 0;
+    
 }
 .middle-text{
      width: 500px;
@@ -106,7 +106,6 @@ h4{
 
 .expertise-details{
     color: rgb(153, 134, 134);
-    width: 100vw;
 }
 
 .project1{
