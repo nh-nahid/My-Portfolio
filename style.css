@@ -13,7 +13,7 @@
 }
 body{
     font-family: 'Inconsolata';
-    width: 100vw;
+    
 }
 .topbar{
     display: flex;
@@ -39,7 +39,7 @@ body{
     align-items: center;
     padding: 0 200px;
     background-color: #E5E5E5;
-    
+    width: 100vw;
 }
 h2{
     font-family: 'dosis', sans-serif;
@@ -104,10 +104,12 @@ h4{
 .project1{
     display: flex;
     justify-content: space-between;
+    width: 100vw;
 }
 .project2{
     display: flex;
     justify-content: space-between;
+    width: 100vw;
    
 }
 
