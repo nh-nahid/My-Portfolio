@@ -102,10 +102,12 @@ h4{
 
 .expertise{
     padding-left: 50px;
+    font-size: normal;
 }
 
 .expertise-details{
     color: rgb(153, 134, 134);
+    padding: 10px;
 }
 
 .project1{
