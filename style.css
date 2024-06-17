@@ -41,6 +41,7 @@ body{
     background-color: #E5E5E5;
     
 }
+
 h2{
     font-family: 'dosis', sans-serif;
     font-size: 30px;
@@ -81,7 +82,7 @@ a{
     margin: 100px 50px;
 }
 .middle-text{
-    width: 500px;
+     width: 500px;
     color: rgb(153, 134, 134);
 }
 
@@ -97,8 +98,14 @@ h4{
     font-size: 18px;
     font-family: 'dosis';
 }
+
+.expertise{
+    padding-left: 50px;
+}
+
 .expertise-details{
-    color: rgb(153, 134, 134);;
+    color: rgb(153, 134, 134);
+    width: 100vw;
 }
 
 .project1{
