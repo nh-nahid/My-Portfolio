@@ -75,41 +75,6 @@ button:hover{
 a{
     text-decoration: none;
 }
-/* 
-.middle-content{
-    display: flex;
-    justify-content: space-between;
-    margin: 100px 0;
-    padding: 0 200px;
-    
-}
-.middle-text{
-     width: 400px;
-    color: rgb(153, 134, 134);
-}
-
-h1{
-    width: 350px;
-    font-size: 50px;
-    margin-left: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-h4{
-    margin-bottom: 15px;
-    font-size: 18px;
-    font-family: 'dosis';
-}
-
-.expertise{
-    padding-left: 50px;
-    
-}
-
-.expertise-details{
-    color: rgb(153, 134, 134);
-    padding: 10px;
-} */
 
 .middle-content{
     display: flex;
@@ -189,6 +154,7 @@ h4{
 .social-icon{
     display: flex;
     justify-content: space-between;
+    margin-top: 10px;
     
 }
 .left-footer{
