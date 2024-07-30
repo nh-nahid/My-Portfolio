@@ -10,15 +10,23 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+
+}
+
+.fullbox{
+    width: 1366px;
+    margin: 0 auto;
 }
 body{
     font-family: 'Inconsolata';
-    
 }
-.topbar{
+.topbar-background{
+    background-color: cadetblue;
+}
+.container{
     display: flex;
     justify-content: space-between;
-    background-color: white;
     height: 90px;
     align-items: center;
     padding: 0 50px;
@@ -31,6 +39,7 @@ body{
 }
 .name{
     font-size: 30px;
+    color: white;
 }
 
 .content{
@@ -39,6 +48,7 @@ body{
     align-items: center;
     padding: 0 200px;
     background-color: #E5E5E5;
+
 
 }
 
@@ -74,8 +84,13 @@ button:hover{
 }
 a{
     text-decoration: none;
+    color: white;
 }
 
+.down-content{
+    margin-left: 40px;
+    margin-right: 40px;
+}
 .middle-content{
     display: flex;
     justify-content: space-between;
@@ -91,10 +106,9 @@ a{
 
 h1{
     font-size: 40px;
-    margin-left: 20px;
-    padding-top: 40px;
     padding-right: 20px;
-    font-family: 'dosis'
+    font-family: 'dosis';
+    margin-top: 40px;
 }
 
 .expertise{
@@ -109,16 +123,7 @@ h1{
 .h4{
     font-family: 'dosis';
 }
-.project1{
-    display: flex;
-    justify-content: space-between;
-    
-}
-.project2{
-    display: flex;
-    justify-content: space-between;
-   
-}
+
 
 .contact{
   
@@ -146,9 +151,9 @@ h4{
 .footer{
     display: flex;
     justify-content: space-between;
-    margin-top: 60px;
-    padding: 40px;
+    margin-top: 100px;
     margin-bottom: 100px;
+
 }
 
 .social-icon{

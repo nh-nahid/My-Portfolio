@@ -1,0 +1,88 @@
+
+.skill-first-row{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+
+.skill-second-row{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.icon{
+    font-size: 35px;
+}
+
+.javascript{
+    color: yellow;
+    background-color: black;
+    font-size: 29px;
+}
+
+.ang-react-vue{
+    display: flex;
+    justify-content: left;
+}
+
+.angular{
+   color: red;
+}
+.react{
+    color: lightseagreen;
+}
+.vue{
+    color: rgb(66, 204, 66);
+}
+
+.nodejs{
+    color: rgb(66, 204, 66);
+}
+
+.python{
+    color: rgb(71, 71, 229);
+}
+.php{
+    color: rgb(62, 62, 164);
+    font-size: 55px;
+}
+
+.html-css{
+    display: flex;
+    justify-content: left;
+}
+
+.html{
+    color: #274AE3;
+}
+.css{
+    color: #DD4B25;
+}
+
+.sass-less{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.sass{
+    color: #C76494;
+}
+.less{
+    color: #533C78;
+    font-size: 55px;
+
+}
+
+
+.head{
+    font-family: 'dosis', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.text{
+    font-family: 'dosis', sans-serif;
+}
