@@ -20,53 +20,71 @@
 }
 body{
     font-family: 'Inconsolata';
-}
-.topbar-background{
-    background-color: cadetblue;
-}
-.container{
-    display: flex;
-    justify-content: space-between;
-    height: 90px;
-    align-items: center;
-    padding: 0 50px;
+
 }
 
+/* Style of Navbar */
+.topbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: cadetblue;
+    width: 100%;
+    height: 75px;
+    align-items: center;
+    padding: 0 50px;
+    position: fixed;
+    z-index: 1;
+    visibility: hidden;
+    transition: top 0.3s;
+    
+}
+
+/* Style of  */
 .right{
     display: flex;
     justify-content: space-between;
     gap: 50px;
 }
+
+/* Navbar Name */
 .name{
-    font-size: 30px;
+    font-size: 35px;
     color: white;
+    font-weight: 600;
 }
 
+/* Content of image, title & button section */
 .content{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 200px;
+    padding: 0 100px;
     background-color: #E5E5E5;
+    height: 632px;
 
 
 }
 
+/* Heading of title */
 h2{
     font-family: 'dosis', sans-serif;
-    font-size: 30px;
+    font-size: 35px;
     font-weight: 500;
     
 }
 img{
-   width: 300px;
+   width: 380px;
    margin-top: 40px;
 }
+
+/* Title of Myself */
 .tittle{
     margin-top: 10px;
     color: rgb(105, 93, 93);
+    font-size: 18px;
 }
 
+/* Button of Download CV */
 button{
     padding: 15px 30px;
     margin-top: 15px;
@@ -82,11 +100,16 @@ button:hover{
     color: white;
     
 }
+
+/* Anchor Tag */
 a{
     text-decoration: none;
     color: white;
+    font-size: 20px;
 }
 
+
+/* My Background */
 .down-content{
     margin-left: 40px;
     margin-right: 40px;
@@ -104,12 +127,15 @@ a{
     font-weight: 500;
 }
 
+/* Heading of what I do */
 h1{
-    font-size: 40px;
+    font-size: 30px;
     padding-right: 20px;
     font-family: 'dosis';
     margin-top: 40px;
 }
+
+/* My expertise part */
 
 .expertise{
     padding-right: 30px;
@@ -124,7 +150,7 @@ h1{
     font-family: 'dosis';
 }
 
-
+/* My contact part */
 .contact{
   
     font-family: 'dosis';
@@ -141,27 +167,31 @@ h1{
     margin-bottom: 8px;
     font-family: 'dosis';
 }
+
+/* Heading of footer */
 h4{
     font-size: 20px;
     font-family: 'abel';
     font-weight: 600;
 }
    
-
+/* Footer box */
 .footer{
     display: flex;
     justify-content: space-between;
     margin-top: 100px;
     margin-bottom: 100px;
-
 }
 
+/* Social icon of footer */
 .social-icon{
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
+    font-size: 20px;
     
 }
+/* Copyright Footer */
 .left-footer{
     font-family: 'dosis';
 }
