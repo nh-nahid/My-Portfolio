@@ -31,9 +31,10 @@ body{
 }
 /* Style of Navbar */
 .topbar{
-    background-color: cadetblue;
+    background-color: white;
     width: 100%;
-    height: 75px;
+    height: 70px;
+    box-shadow: 0 0 10px 0 gray;
     position: fixed;
     z-index: 1;
     visibility: hidden;
@@ -51,10 +52,11 @@ body{
 
 /* Navbar Name */
 .name{
-    font-size: 35px;
-    color: white;
-    font-weight: 600;
+    font-size: 27px;
+    font-family: 'dosis', sans-serif;
+    color: gray;
     margin-left: 50px;
+    text-shadow: 0 0 15px lightgray;
 }
 
 /* Content of image, title & button section */
@@ -72,7 +74,7 @@ body{
     padding: 0 100px;
     height: 644px;
     background-color: #E5E5E5;
-    width: 100%;
+    width: 1366px;
 }
 
 /* Heading of title */
@@ -118,10 +120,14 @@ button:hover{
 /* Anchor Tag */
 a{
     text-decoration: none;
-    color: white;
+    color: gray;
     font-size: 20px;
+    transition: color 0.2s;
 }
 
+a:hover{
+    color: blue;
+}
 
 /* My Background */
 .down-content{
@@ -202,8 +208,7 @@ h4{
     display: flex;
     justify-content: space-between;
     margin-top: 15px;
-    font-size: 25px;
-    
+    font-size: 25px;    
 }
 /* Copyright Footer */
 .left-footer{
